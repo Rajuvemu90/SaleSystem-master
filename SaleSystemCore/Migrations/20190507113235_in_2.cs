@@ -289,6 +289,20 @@ namespace SaleSystemCore.Migrations
                 keyValue: 1,
                 column: "CreateDate",
                 value: new DateTime(2019, 3, 25, 19, 23, 31, 553, DateTimeKind.Local).AddTicks(4677));
+
+            migrationBuilder.UpdateData(
+                table: "Users",
+                keyColumn: "Id",
+                keyValue: 2,
+                column: "CreateDate",
+                value: new DateTime(2021, 3, 25, 19, 23, 31, 553, DateTimeKind.Local).AddTicks(5677));
+
+            migrationBuilder.UpdateData(
+                table: "Users",
+                keyColumn: "Id",
+                keyValue: 3,
+                column: "CreateDate",
+                value: new DateTime(2021, 3, 27, 19, 23, 31, 553, DateTimeKind.Local).AddTicks(7677));
         }
     }
 }
